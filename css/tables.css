@@ -31,3 +31,28 @@ th p {
 strong {
     font-weight: 600;
 }
+.avatar {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.status {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+}
+
+.status.active {
+    color: #10b981;
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.status.notfound {
+    color: rgb(243, 156, 6);
+    background-color: rgba(243, 203, 6, 0.2);
+}
